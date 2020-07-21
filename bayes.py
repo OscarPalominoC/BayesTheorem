@@ -1,9 +1,9 @@
 class Bayes:
-    def __init__(self, priorA, probBdadoA):
+    def __init__(self, priorA, probBdadoA,probBnoA):
         self.priorA = priorA
         self.probBdadoA = probBdadoA
         self.probNoA = 1 - priorA
-        self.probBnoA = 1 - probBdadoA
+        self.probBnoA = probBnoA
         self.probB = (probBdadoA * priorA) + (self.probBnoA * self.probNoA)
 
     def probabilityB(self):
