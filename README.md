@@ -3,8 +3,13 @@ Reto semana 9. Programa que calcula el Teorema de Bayes.
 
 ## Fórmula del Teorema de Bayes
 
+Probabilidad de A y B
 ```
-P(A/B) = (P(B/A) * P(A)) / P(B)
+P(A and B) = P(A)* P(B|A)
+```
+Probabilidad de B
+```
+P(B) = P(A)* P(B|A) + P(¬A) * P(B|¬A)
 ```
 
 ## Ejercicio 1.
