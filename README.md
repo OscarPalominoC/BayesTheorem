@@ -12,6 +12,11 @@ Probabilidad de B
 P(B) = P(A)* P(B|A) + P(¬A) * P(B|¬A)
 ```
 
+**Terema de Bayes**
+```
+P(A | B) = (P(A) * P(B | A)) / P(B)
+```
+
 # Modo de uso
 
 Todos los valores ingresados para que la salida sea correcta, deben ser ingresados en terminos de probabilidad, es decir, valores entre 0 - 1.
@@ -52,7 +57,31 @@ En una fábrica de latas producen latas de dos tamaños, de 25 ml y de 40 ml, si
 
 ¿Cuál es la probabilidad que al seleccionar una lata de las defectuosas al azar ésta sea de 40ml?
 
+**Solución**
+
+```
+Cómo se llama el conjunto que deseas evaluar? Latas de 40 ml
+Cómo se llama el conjunto contra la que estás evaluando? Latas de 25 ml
+Cómo se llama el evento que deseas evaluar? Latas defectuosas
+Cuál es la probabilidad que elijas el conjunto Latas de 40 ml? 0.5
+Cuál es la probabilidad del evento Latas defectuosas con el conjunto Latas de 40 ml? 0.04
+Cuál es la probabilidad del evento Latas defectuosas con el conjunto Latas de 25 ml? 0.01
+La probabilidad de elegir 1 Latas de 40 ml y que cumpla con Latas defectuosas es 80.0 %
+```
+
 ## Ejercicio 3.
 En las elecciones de un país hay 2 candidatos a la presidencia, el candidato A y el candidato B y en los resultados de las selecciones se sabe que un 75% de el conjunto es de clase media y baja y un 25% son de son de clase alta, si por el candidato A votó un 90% de la clase alta y un 5% de la clase media y baja, y se elige una persona al azar de los que votaron por el candidato A.
 
 ¿Cuál es la probabilidad que este sea de la clase media y baja?
+
+**Solución**
+
+```
+Cómo se llama el conjunto que deseas evaluar? Clase media y baja
+Cómo se llama el conjunto contra la que estás evaluando? Clase alta
+Cómo se llama el evento que deseas evaluar? Candidato A
+Cuál es la probabilidad que elijas el conjunto Clase media y baja? 0.75
+Cuál es la probabilidad del evento Candidato A con el conjunto Clase media y baja? 0.05
+Cuál es la probabilidad del evento Candidato A con el conjunto Clase alta? 0.9
+La probabilidad de elegir 1 Clase media y baja y que cumpla con Candidato A es 14.29 %
+```
